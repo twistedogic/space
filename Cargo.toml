@@ -1,0 +1,13 @@
+[package]
+name = "space"
+version = "0.1.0"
+authors = ["Jordan Li <twistedogic@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+error_chain = "0.12.4"
+reqwest = "0.11.3"
+serde = "1.0.126"
+url = "2.2.2"
